@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  line-height: 1.8;
+}
+
+h1,
+h4 {
+  text-align: center;
+}
+
+#container {
+  margin: auto;
+  max-width: 1280px;
+  padding: 20px;
+}
+form {
+  margin-bottom: 30px;
+}
+.form-item {
+  margin-top: 20px;
+}
+input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+  background: #008cba;
+  color: white;
+}
+input[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+#output {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meme {
+  margin: 10px;
+}
+
+.meme:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.box {
+  position: relative;
+}
+img {
+  max-width: 600px;
+  max-height: 600px;
+  border-radius: 5px;
+}
+
+/* Text on the top */
+.top {
+  width: 100%;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  font-size: 3rem;
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  top: 20%;
+  left: 50%;
+}
+
+/* Text on the bottom */
+.bottom {
+  width: 100%;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  font-size: 3rem;
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  top: 85%;
+  left: 50%;
+}
