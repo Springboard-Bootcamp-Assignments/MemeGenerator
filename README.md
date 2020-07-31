@@ -1,3 +1,3 @@
 # MemeGenerator
 
-https://ryikeda.github.io/MemeGenerator/
+https://springboard-bootcamp-assignments.github.io/MemeGenerator/
